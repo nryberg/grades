@@ -36,9 +36,9 @@ module Test
       page.driver.render("./screens/now1.png")
       click_link "Assignments"
       page.driver.render("./screens/now2.png")
-      puts source 
       click_link "Expand"
       page.driver.render("./screens/now3.png")
+      puts source 
       #fill_in "q", :with => "Capybara"
       #click_button "Google Search"
       #all(:xpath, "//li[@class='g']/h3/a").each { |a| puts a[:href] }
